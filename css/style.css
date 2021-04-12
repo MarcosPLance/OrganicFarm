@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+html, body{
+    height: 100%;
+}
+
+.titulo-principal{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(194, 191, 5);
+}
+
+.titulo-secundario{
+    font-family: LeavesAndGround;
+    text-transform: uppercase;
+}
+
+.subtitulo{
+    font-size: 30px;
+}
+
+.principal{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-image: url('../img/topp.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li{
+    margin-left: 25px;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu ul li:hover{
+    text-decoration: underline;
+}
+
+.titulos{
+    display: flex;
+    text-align: center;
+    flex-direction: column-reverse;
+    padding-bottom: 100px;
+}
+
+.filosofia{
+    padding: 50px 0;
+    text-align: center;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+.produtos{
+    padding: 50px 0;
+    text-align: center;
+    flex-direction: column;
+}
+
+.produtos>h2{
+    padding: 50px 0;
+    font-size: 30px;
+}
+
+.conteudo-produtos{
+    display: flex;
+}
+
+.area-produtos{
+    flex: 1;
+}
+
+
+.area-produtos>img{
+    border-radius: 50%;
+}
+
+.tododia{
+    text-align: center;
+    background-image: url(../img/plantacao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.conteudo-tododia{
+    padding: 100px 0;
+    background-color: rgb(0,0,0,0.38);
+}
+
+.rodape{
+    height: 600px;
+}
+
+.fundo-preto{
+    background-color: #000;
+}
+
+/*CONTATO*/
+
+.contato .titulo-principal{
+    text-align: center;
+}
+
+.conteudo-contato{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.conteudo-contato>div{
+    flex: 1;
+    padding: 10px;
+}
+
+.conteudo-contato label{
+    display: block;
+    margin-top: 15px;
+}
+
+input[type=text], input[type=email], textarea{
+    width: 100%;
+}
+
+input[type=submit]{
+    padding: 10px 30px;
+    border: solid 1px black;
+}

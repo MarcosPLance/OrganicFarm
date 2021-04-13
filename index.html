@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fazenda da Colina Verde</title>
     <link rel="stylesheet" href='./css/style.css'>
     <link rel="stylesheet" href='./css/fonts.css'>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,12 +15,12 @@
 
     <header class="principal">
         <nav class="menu">
-            <div class="logo"><a href="index.html"></a>Fazenda Colina Verde</div>
+            <div class="logo"><a href="index.html">Fazenda Colina Verde</a></div>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="./contato.html">Contato</a></li>
+                <li><a href="./pages/about.html">Sobre Nós</a></li>
+                <li><a href="./pages/produtos.html">Produtos</a></li>
+                <li><a href="./pages/contato.html">Contato</a></li>
             </ul>
         </nav>
         
@@ -35,39 +35,65 @@
         <p class="titulo-principal subtitulo">Nossa filosofia</p>
         <h2 class="titulo-secundario">Cultivando com amor</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis eos, praesentium hic earum, iusto asperiores assumenda repellendus eaque velit quasi odit repudiandae voluptas esse minus corrupti pariatur totam eligendi molestias.</p>
-        <p><a href="#">Leia mais</a></p>
+        <button>Leia Mais</button>
     </section>
     
     <section class="produtos">
-        <h2 class="titulo-principal">Nossos produtos</h2>
+        <h2 class="titulo-secundario">Nossos produtos</h2>
         <div class="conteudo-produtos">
             <div class="area-produtos">
-                <img src="https://picsum.photos/300/300" alt="">
+                <div id="lactcineos"></div>
+                <h2 class="titulos-produtos"><strong>Lactcineos</strong></h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil est aut vitae. Dolorem, totam molestias beatae blanditiis cum est quas odio perspiciatis, eum, debitis pariatur error reprehenderit delectus aut magni.</p>
             </div>
             <div class="area-produtos">
-                <img src="https://picsum.photos/300/300" alt="">
+                <div id="legumes"></div>
+               <h2 class="titulos-produtos"><strong>Legumes</strong></h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est hic quaerat quos repellendus nesciunt omnis distinctio blanditiis vitae perspiciatis, facere voluptas suscipit ex repudiandae sint inventore aspernatur aliquam placeat. Illum?</p>
             </div>
             <div class="area-produtos">
-                <img src="https://picsum.photos/300/300" alt="">
+                <div id="paes"></div>
+                <h2 class="titulos-produtos"><strong>Pães</strong></h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, animi. Quis distinctio dicta consequuntur praesentium, corporis recusandae ea quibusdam temporibus, minus sequi mollitia veniam dolore nesciunt officiis! Quam, reiciendis asperiores.</p>
             </div>
+        </div>
+        <div class="conteudo-produtos">
+            <div class="area-produtos"><a href="">   Lactcineos &rarr;</a></div>
+            <div class="area-produtos"><a href="">   Legumes &rarr;</a></div>
+            <div class="area-produtos"><a href="">   Paes &rarr;</a></div>
         </div>
     </section>
 
     <section class="tododia">
         <div class="conteudo-tododia">
             <p class="titulo-principal"></p>
-            <h2 class="titulo-secundario"></h2>
+            <h2 class="titulo-secundario"> produtos frescos e organicos</h2>
         </div>
 
     </section>
 
+    <section class="pedidos">
+        <div class="titulos">
+            <h1 class="titulo-secundario">Saboreie a comida de verdade</h1>
+            <h2 class="titulo-principal">Diretamente da nossa fazenda</h2>
+        </div>
+        <div class="encomendas">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe corrupti tenetur voluptas quo similique atque molestiae, magni dignissimos eligendi sed placeat consequatur eum aliquid id. Suscipit cum animi inventore in?
+            </p>
+
+            <button>Encomendar Produtos</button>
+        </div>
+    </section>
+
     <footer class="rodape">
-        <h2>
-            Rodape
-        </h2>
+      <div>
+          Fazenda colina verde
+          <div>Cultivada 2019</div>
+      </div>
+      <nav>
+          Desenvolvido por LanceMP
+      </nav>
     </footer>
 
 </body>
